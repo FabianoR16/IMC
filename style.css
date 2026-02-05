@@ -78,3 +78,24 @@ label{
     color: #fff;
     font-size: 18px;
 }
+
+
+@media (max-width: 620px){
+    body{
+        overflow-x: hidden;
+    }
+    .box{
+        width: 60%;
+        margin-left: -110px;
+    }
+    input{
+        padding: 5px;
+    }
+}
+
+@media (max-width: 1300px){
+        .box{
+        width: 50%;
+        margin-left: -160px;
+    }
+}
