@@ -101,7 +101,6 @@ label{
 }
 
 
-/* Celulares pequenos */
 @media (max-width: 480px){
     .box{
         width: 80%;
@@ -121,7 +120,7 @@ label{
     }
 }
 
-/* Remove zoom agressivo em telas touch */
+
 @media (hover: none){
     input:hover{
         transform: none;
